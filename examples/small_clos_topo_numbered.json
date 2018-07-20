@@ -1,0 +1,257 @@
+{
+"default_bandwidth": "10000",
+"link_ip_start": {"ipv4": "10.0.0.0", "v4mask": 31, "ipv6": "fd00::", "v6mask": 64}, 
+"lo_ip_start": {"ipv4": "1.0.0.0", "v4mask": 32, "ipv6": "2001:DB8:F::", "v6mask": 128},
+"routers": {
+	"r0": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r4": { "ipv4": "auto", "ipv6": "auto" },
+        	"r5": { "ipv4": "auto", "ipv6": "auto", "bandwidth": "2000" },
+        	"r6": { "ipv4": "auto", "ipv6": "auto" },
+        	"r7": { "ipv4": "auto", "ipv6": "auto" }
+        	},
+        "openfabric": { "tier": 0 }
+        },
+    "r1": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r4": { "ipv4": "auto", "ipv6": "auto" },
+        	"r5": { "ipv4": "auto", "ipv6": "auto" },
+        	"r6": { "ipv4": "auto", "ipv6": "auto" },
+        	"r7": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r2": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r4": { "ipv4": "auto", "ipv6": "auto" },
+        	"r5": { "ipv4": "auto", "ipv6": "auto" },
+        	"r6": { "ipv4": "auto", "ipv6": "auto" },
+        	"r7": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r3": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r4": { "ipv4": "auto", "ipv6": "auto" },
+        	"r5": { "ipv4": "auto", "ipv6": "auto" },
+        	"r6": { "ipv4": "auto", "ipv6": "auto" },
+        	"r7": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r4": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r0": { "ipv4": "auto", "ipv6": "auto" },
+        	"r1": { "ipv4": "auto", "ipv6": "auto" },
+        	"r2": { "ipv4": "auto", "ipv6": "auto" },
+        	"r3": { "ipv4": "auto", "ipv6": "auto" },
+        	"r8": { "ipv4": "auto", "ipv6": "auto" },
+        	"r9": { "ipv4": "auto", "ipv6": "auto" },
+        	"r10": { "ipv4": "auto", "ipv6": "auto" },
+        	"r11": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r5": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r0": { "ipv4": "auto", "ipv6": "auto" },
+        	"r1": { "ipv4": "auto", "ipv6": "auto" },
+        	"r2": { "ipv4": "auto", "ipv6": "auto" },
+        	"r3": { "ipv4": "auto", "ipv6": "auto" },
+        	"r8": { "ipv4": "auto", "ipv6": "auto" },
+        	"r9": { "ipv4": "auto", "ipv6": "auto" },
+        	"r10": { "ipv4": "auto", "ipv6": "auto" },
+        	"r11": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r6": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r0": { "ipv4": "auto", "ipv6": "auto" },
+        	"r1": { "ipv4": "auto", "ipv6": "auto" },
+        	"r2": { "ipv4": "auto", "ipv6": "auto" },
+        	"r3": { "ipv4": "auto", "ipv6": "auto" },
+        	"r8": { "ipv4": "auto", "ipv6": "auto" },
+        	"r9": { "ipv4": "auto", "ipv6": "auto" },
+        	"r10": { "ipv4": "auto", "ipv6": "auto" },
+        	"r11": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r7": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r0": { "ipv4": "auto", "ipv6": "auto" },
+        	"r1": { "ipv4": "auto", "ipv6": "auto" },
+        	"r2": { "ipv4": "auto", "ipv6": "auto" },
+        	"r3": { "ipv4": "auto", "ipv6": "auto" },
+        	"r8": { "ipv4": "auto", "ipv6": "auto" },
+        	"r9": { "ipv4": "auto", "ipv6": "auto" },
+        	"r10": { "ipv4": "auto", "ipv6": "auto" },
+        	"r11": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r8": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r4": { "ipv4": "auto", "ipv6": "auto" },
+        	"r5": { "ipv4": "auto", "ipv6": "auto" },
+        	"r6": { "ipv4": "auto", "ipv6": "auto" },
+        	"r7": { "ipv4": "auto", "ipv6": "auto" },
+        	"r12": { "ipv4": "auto", "ipv6": "auto" },
+        	"r13": { "ipv4": "auto", "ipv6": "auto" },
+        	"r14": { "ipv4": "auto", "ipv6": "auto" },
+        	"r15": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r9": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r4": { "ipv4": "auto", "ipv6": "auto" },
+        	"r5": { "ipv4": "auto", "ipv6": "auto" },
+        	"r6": { "ipv4": "auto", "ipv6": "auto" },
+        	"r7": { "ipv4": "auto", "ipv6": "auto" },
+        	"r12": { "ipv4": "auto", "ipv6": "auto" },
+        	"r13": { "ipv4": "auto", "ipv6": "auto" },
+        	"r14": { "ipv4": "auto", "ipv6": "auto" },
+        	"r15": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r10": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r4": { "ipv4": "auto", "ipv6": "auto" },
+        	"r5": { "ipv4": "auto", "ipv6": "auto" },
+        	"r6": { "ipv4": "auto", "ipv6": "auto" },
+        	"r7": { "ipv4": "auto", "ipv6": "auto" },
+        	"r12": { "ipv4": "auto", "ipv6": "auto" },
+        	"r13": { "ipv4": "auto", "ipv6": "auto" },
+        	"r14": { "ipv4": "auto", "ipv6": "auto" },
+        	"r15": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r11": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r4": { "ipv4": "auto", "ipv6": "auto" },
+        	"r5": { "ipv4": "auto", "ipv6": "auto" },
+        	"r6": { "ipv4": "auto", "ipv6": "auto" },
+        	"r7": { "ipv4": "auto", "ipv6": "auto" },
+        	"r12": { "ipv4": "auto", "ipv6": "auto" },
+        	"r13": { "ipv4": "auto", "ipv6": "auto" },
+        	"r14": { "ipv4": "auto", "ipv6": "auto" },
+        	"r15": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r12": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r8": { "ipv4": "auto", "ipv6": "auto" },
+        	"r9": { "ipv4": "auto", "ipv6": "auto" },
+        	"r10": { "ipv4": "auto", "ipv6": "auto" },
+        	"r11": { "ipv4": "auto", "ipv6": "auto" },
+        	"r16": { "ipv4": "auto", "ipv6": "auto" },
+        	"r17": { "ipv4": "auto", "ipv6": "auto" },
+        	"r18": { "ipv4": "auto", "ipv6": "auto" },
+        	"r19": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r13": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r8": { "ipv4": "auto", "ipv6": "auto" },
+        	"r9": { "ipv4": "auto", "ipv6": "auto" },
+        	"r10": { "ipv4": "auto", "ipv6": "auto" },
+        	"r11": { "ipv4": "auto", "ipv6": "auto" },
+        	"r16": { "ipv4": "auto", "ipv6": "auto" },
+        	"r17": { "ipv4": "auto", "ipv6": "auto" },
+        	"r18": { "ipv4": "auto", "ipv6": "auto" },
+        	"r19": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r14": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r8": { "ipv4": "auto", "ipv6": "auto" },
+        	"r9": { "ipv4": "auto", "ipv6": "auto" },
+        	"r10": { "ipv4": "auto", "ipv6": "auto" },
+        	"r11": { "ipv4": "auto", "ipv6": "auto" },
+        	"r16": { "ipv4": "auto", "ipv6": "auto" },
+        	"r17": { "ipv4": "auto", "ipv6": "auto" },
+        	"r18": { "ipv4": "auto", "ipv6": "auto" },
+        	"r19": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r15": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r8": { "ipv4": "auto", "ipv6": "auto" },
+        	"r9": { "ipv4": "auto", "ipv6": "auto" },
+        	"r10": { "ipv4": "auto", "ipv6": "auto" },
+        	"r11": { "ipv4": "auto", "ipv6": "auto" },
+        	"r16": { "ipv4": "auto", "ipv6": "auto" },
+        	"r17": { "ipv4": "auto", "ipv6": "auto" },
+        	"r18": { "ipv4": "auto", "ipv6": "auto" },
+        	"r19": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r16": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r12": { "ipv4": "auto", "ipv6": "auto" },
+        	"r13": { "ipv4": "auto", "ipv6": "auto" },
+        	"r14": { "ipv4": "auto", "ipv6": "auto" },
+        	"r15": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r17": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r12": { "ipv4": "auto", "ipv6": "auto" },
+        	"r13": { "ipv4": "auto", "ipv6": "auto" },
+        	"r14": { "ipv4": "auto", "ipv6": "auto" },
+        	"r15": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r18": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r12": { "ipv4": "auto", "ipv6": "auto" },
+        	"r13": { "ipv4": "auto", "ipv6": "auto" },
+        	"r14": { "ipv4": "auto", "ipv6": "auto" },
+        	"r15": { "ipv4": "auto", "ipv6": "auto" }
+        	}
+        },
+    "r19": {
+        "started": 1,
+		"lo": { "ipv4": "auto", "ipv6": "auto" },
+        "links": {
+        	"r12": { "ipv4": "auto", "ipv6": "auto" },
+        	"r13": { "ipv4": "auto", "ipv6": "auto" },
+        	"r14": { "ipv4": "auto", "ipv6": "auto" },
+        	"r15": { "ipv4": "auto", "ipv6": "auto" }
+        	},
+        "openfabric": { "tier": 0 }
+        }
+	}
+}
